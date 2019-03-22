@@ -1,0 +1,63 @@
+
+@import url(common.css);
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+.center{
+    width:1200px;
+    margin:0 auto;
+}
+
+
+.line>a.on{color:#000;background: #fff}
+
+
+.line{
+    background: transparent;
+}
+
+#MenuBar a.clicked {
+    background: cyan;
+    color: #f3f3f3;
+}
+
+.selected_field{
+    color: #588efc;
+    font-weight: bolder;
+}
+
+.unselected_field{
+    color: #000
+    font-weight: normal;
+}
+
+/* header */
+header{
+    position:relative;
+}
+header>#logo{
+    float:left;
+    margin-right:50px;
+    margin-top:50px;
+}
+header>.nav>li{
+    float:left;
+    margin-top:70px;
+    margin-left:50px;
+}
+
+.line>.lBg.on_n{
+    position:absolute;
+    width:60px;
+    height:100px;
+    top:0;
+    z-index:-1;
+    background:#354fcf;
+    margin-bottom: 5em;
+}
+
+/*belly*/
+
+.blue_colorized{
+    font-weight: bold;
+}
+
+/* footer */

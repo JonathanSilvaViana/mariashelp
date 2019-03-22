@@ -1,0 +1,35 @@
+
+@import url(common.css);
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+.center{
+    width:1200px;
+    margin:0 auto;
+}
+
+.line>a.on{color:#f3f3f3;}
+
+/* header */
+header{
+    position:relative;
+}
+header>#logo{
+    float:left;
+    margin-right:50px;
+    margin-top:50px;
+}
+header>.nav>li{
+    float:left;
+    margin-top:70px;
+    margin-left:50px;
+}
+
+.line>.lBg.on_n{
+    position:absolute;
+    width:60px;
+    height:100px;
+    top:0;
+    z-index:-1;
+    background:#354fcf;
+}
+
+/* footer */

@@ -1,0 +1,153 @@
+@charset "utf-8";
+
+/*  #visual  */
+#visual img{
+    position:absolute;
+    top:50%;
+    left:50%;
+}
+
+/* mainBg */
+#visual>.mainBg{
+    margin:-350px 0 0 -975px;
+}
+#visual>.arms>.arm_left{
+    margin:-245px 0 0 -450px;
+}
+#visual>.arms>.arm_right{
+    margin:50px 0 0 -60px;
+}
+/* body */
+#visual>.body>img{
+    margin:-150px 0 0 -230px;
+}
+/* bubble */
+.bubble01{
+    margin-left:-330px;
+    margin-top:-140px;
+}
+.bubble02{
+    margin-left:-300px;
+    margin-top:40px;
+}
+.bubble03{
+    margin-left:90px;
+    margin-top:-140px;
+}
+.bubble04{
+    margin-left:120px;
+}
+.bubble05{
+    margin-left:130px;
+    margin-top:50px;
+}
+
+/*  #container  */
+#container{
+    width:1100px;
+    margin:730px auto 0;
+}
+#container>#skill>h3, #work>h3{
+    width:10px;
+    height:10px;
+    background-color:#588efc;
+    margin-bottom:30px;
+}
+#container>#skill>h3>a, #work>h3>a{
+    margin-left:20px;
+    white-space:nowrap;
+}
+#skill{
+    margin-left:50px;
+}
+.mySkill>li{
+    float:left;
+    margin-right:47px;
+}
+
+
+#work{
+    position:relative;
+    margin:200px 0 200px 50px;
+}
+#work>div>ul>li{
+    float:left;
+}
+.empty{
+    position:absolute;
+    width:500px;
+    height:500px;
+    background:#f2f2f2;
+    top:50%;
+    left:50%;
+    text-indent:-9999px;
+}
+/* left empty */
+.ui>ul>li{
+    top:40px;
+    left:-500px;
+}
+.topText{
+    background:#f2f2f2;
+    padding:132px 143.86px;
+    text-align:center;
+    line-height:1.5;
+}
+/* right empty */
+.ux>ul>li{
+    top:540px;
+    left:1000px;
+}
+.bottomText{
+    background:#f2f2f2;
+    text-align:center;
+    padding:154px 121.93px;
+    line-height:1.5;
+}
+.title{
+    font-size:40px;
+}
+
+
+/* #project */
+#project>h3{
+    font-size:40px;
+}
+.rBox li{
+    float:right;
+    margin:0 0 20px 20px;
+}
+.projectList{
+    float:left;
+    background:pink;
+}
+.projectList>ul>li{
+    line-height:3.2;
+}
+
+#website{
+    display:none;
+}
+#mobile{
+    display:none;
+}
+#illustration{
+    display:none;
+}
+#ci{
+    display:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
